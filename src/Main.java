@@ -9,25 +9,25 @@ public class Main {
         Curso curso1 = new Curso();
 
         curso1.setTitulo("Curso Backend");
-        curso1.setDescricao("Descrição curso 1");
+        curso1.setDescricao("É um curso de Backend Java");
         curso1.setCargaHoraria(40);
 
         Curso curso2 = new Curso();
 
         curso2.setTitulo("Curso Frontend");
-        curso2.setDescricao("Descrição curso 2");
+        curso2.setDescricao("É um curso de FrontEnd Java");
         curso2.setCargaHoraria(35);
 
         Mentoria mentoria = new Mentoria();
 
         mentoria.setTitulo("Mentoria SpringBoot");
-        mentoria.setDescricao("Descrição da mentoria");
+        mentoria.setDescricao("É uma mentoria sobre SpringBoot");
         mentoria.setData(LocalDate.now());
 
 
         Bootcamp bootcamp = new Bootcamp();
-        bootcamp.setNome("Bootcamp Java Developer");
-        bootcamp.setDescricao("Descrição");
+        bootcamp.setNome("Bootcamp Java OrangeTech");
+        bootcamp.setDescricao("Bootcamp da Orange Tech sobre Java");
         bootcamp.getConteudos().add(curso1);
         bootcamp.getConteudos().add(curso2);
         bootcamp.getConteudos().add(mentoria);
