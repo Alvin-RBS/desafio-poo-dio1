@@ -2,10 +2,10 @@ package br.com.dio.desafio.dominio;
 
 public abstract class Conteudo {
 
-    final static int XP = 10;
+    public final static double XP_PADRAO = 10d;
 
     private String titulo, descricao;
-    public abstract void calcularXP();
+    public abstract double calcularXP();
 
     public String getTitulo() {
         return titulo;
